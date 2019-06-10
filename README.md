@@ -29,6 +29,13 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ### 目录结构
 * build `webpack配置相关`
+  * build.js `wepack启动项`
+  * dev-client.js
+  * deb-server.js
+  * utils.js 
+  * webpack.base.conf.js
+  * webpack.dev.conf.js
+  * webpack.prod.conf.js
 * config `webpack配置相关`
 * node_modules `npm install 安装的依赖代码库`
 * src `存放项目源码`
