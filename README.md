@@ -28,6 +28,11 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 
 ### 目录结构
+* build `webpack配置相关`
+* config `webpack配置相关`
+* node_modules `npm install 安装的依赖代码库`
+* src `存放项目源码`
+* static `存放第三方静态资源`
 * .babelrc `es6编译es5 js语法的编译器` [more](https://www.jb51.net/article/135225.htm)
 * .editorconfig  `编辑器配置` [more](https://www.cnblogs.com/xiyangbaixue/p/4201490.html)
 * .eslintignore  `忽略eslint文件`[more](https://blog.csdn.net/mafan121/article/details/77965252)
@@ -37,8 +42,4 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 * package.json `node项目配置文件` [more](https://www.cnblogs.com/zzcit/p/5569621.html)
 * prod.sever.js 
 * README.md `项目自述文件`
-* build `webpack配置相关`
-* config `webpack配置相关`
-* node_modules `npm install 安装的依赖代码库`
-* src `存放项目源码`
-* static `存放第三方静态资源`
+
