@@ -15,7 +15,7 @@ module.exports = {
 	resolve: {
 		extensions: ['', '.js', '.vue'],
 		fallback: [path.join(__dirname, '../node_modules')],
-		alias: {
+		alias: { // webpack 配置路径别名
 			'src': path.resolve(__dirname, '../src'),
 			'common': path.resolve(__dirname, '../src/common'),
 			'components': path.resolve(__dirname, '../src/components')
